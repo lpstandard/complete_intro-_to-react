@@ -9,6 +9,6 @@ const Layout = (props) => (
 const { element } = React.PropTypes
 
 Layout.propTypes = {
-  children: element.isRequired   
+  children: element.isRequired
 }
 module.exports = Layout

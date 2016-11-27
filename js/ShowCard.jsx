@@ -7,7 +7,7 @@ const ShowCard = (props) => (
       <h3 className='props.show-card-title'>{props.title}</h3>
       <h4 className='props.show-card-year'>({props.year})</h4>
       <p className='props.show-card-description'>{props.description}</p>
-    </div>             
+    </div>
   </div>
 )
 
