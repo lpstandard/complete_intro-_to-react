@@ -19,7 +19,7 @@ const App = React.createClass({
       return replace('/')
     }
 
-    const newState = {}
+    // const newState = {}
     Object.assign(nextState.params, showArray[0])
     return nextState
   },

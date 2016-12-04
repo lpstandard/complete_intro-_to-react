@@ -13,7 +13,7 @@ const ShowCard = (props) => (
 
 const { string } = React.PropTypes // const string = React.PropTypes.string
 
-ShowCard.PropTypes = {
+ShowCard.propTypes = {
   title: string.isRequired,
   description: string.isRequired,
   year: string.isRequired,
